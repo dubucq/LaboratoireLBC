@@ -13,10 +13,12 @@ switch($uc)
 {
 	case 'accueil':
 		{include("vues/v_accueil.php");break;}
-	case 'voirProduits' :
-		{include("controleurs/c_voirProduits.php");break;}
-	case 'gererPanier' :
-		{ include("controleurs/c_gestionPanier.php");break; }
+	case 'voirFiche' :
+		{include("controleurs/c_FicheEvaluation.php");break;}
+	case 'statsEquipes' :
+		{include("controleurs/c_StatsEquipes.php");break;}
+	case 'gestionCarrieres' :
+		{include("controleurs/c_GestionCarrieres.php");break;}
 }
 ?>
 
